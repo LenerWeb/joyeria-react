@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Nav from './componentes/Nav';
+import Carousel from './componentes/Carousel';
+import Cards from './componentes/Cards';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Nav/>
+    <Carousel/>
+    <Cards/>
+    <App/>
   </React.StrictMode>
 );
 
